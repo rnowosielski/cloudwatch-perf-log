@@ -1,0 +1,36 @@
+{
+  "name": "cloudwatch-perf-log",
+  "version": "1.0.0",
+  "description": "A simple package that logs executions time of code chunks in a format that makes it easy to create AWS metrics",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnowosielski/cloudwatch-perf-log.git"
+  },
+  "keywords": [
+    "metrics",
+    "cloudwatch",
+    "timing",
+    "performance"
+  ],
+  "author": "Rafał Nowosielski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rnowosielski/cloudwatch-perf-log/issues"
+  },
+  "homepage": "https://github.com/rnowosielski/cloudwatch-perf-log#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-mocha-istanbul": "^5.0.2",
+    "istanbul": "^0.4.5",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
+  }
+}
